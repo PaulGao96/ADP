@@ -1,0 +1,78 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:6:22-64
+uses-sdk
+ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:7:5-44
+	android:targetSdkVersion
+		INJECTED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:7:15-41
+		INJECTED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:9:5-33:19
+	android:label
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:10:9-43
+activity#org.opensourcecurrency.hack.Cyberwire
+ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:13:13-38
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:18:27-74
+activity#org.opensourcecurrency.hack.Prefs
+ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:21:9-22:63
+	android:label
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:22:13-51
+	android:name
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:21:19-40
+activity#org.opensourcecurrency.hack.Send
+ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:23:9-24:45
+	android:name
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:24:13-33
+activity#org.opensourcecurrency.hack.Transactions
+ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:25:9-26:53
+	android:name
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:26:13-41
+activity#org.opensourcecurrency.hack.Profile
+ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:27:9-28:48
+	android:name
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:28:13-36
+activity#org.opensourcecurrency.hack.WebViewActivity
+ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:29:9-30:56
+	android:name
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:30:13-44
+activity#org.opensourcecurrency.hack.AddProvider
+ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:31:9-32:52
+	android:name
+		ADDED from D:\Android\bianyiyuanli\app\cyberwire-master2\app\src\main\AndroidManifest.xml:32:13-40

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\profile.xml",
+        "source": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\src\\main\\res\\layout\\profile.xml"
+    },
+    {
+        "merged": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\send.xml",
+        "source": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\src\\main\\res\\layout\\send.xml"
+    },
+    {
+        "merged": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\transactions.xml",
+        "source": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\src\\main\\res\\layout\\transactions.xml"
+    },
+    {
+        "merged": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\addprovider.xml",
+        "source": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\src\\main\\res\\layout\\addprovider.xml"
+    }
+]

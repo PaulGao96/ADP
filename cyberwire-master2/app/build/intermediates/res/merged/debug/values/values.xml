@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#808080</color>
+    <string name="add_provider_button">Add</string>
+    <string name="add_provider_title">Add Asset Provider</string>
+    <string name="addprovider_label">Add Provider</string>
+    <string name="amount_field">amount:</string>
+    <string name="app_name">Cyberwire</string>
+    <string name="hello">Hello World, Cyberwire!</string>
+    <string name="note_field">note:</string>
+    <string name="pay_button">Pay now!</string>
+    <string name="profile_desc">Profile</string>
+    <string name="provider_url_field">url:</string>
+    <string name="reset_label">Reset</string>
+    <string name="send_desc">Send</string>
+    <string name="send_title">Make a payment</string>
+    <string name="settings_label">Settings</string>
+    <string name="to_field">to:</string>
+    <string name="transactions_desc">Transactions</string>
+</resources>

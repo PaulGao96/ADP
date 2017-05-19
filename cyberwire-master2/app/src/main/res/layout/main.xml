@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dip">
+    <Button
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/assetname_button"
+        android:layout_width="144dp"
+        android:layout_height="48dp" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+   <ImageButton
+      android:id="@+id/send_button"
+      android:contentDescription="@string/send_desc"
+      android:layout_width="96dp"
+      android:layout_height="96dp"
+      android:src="@drawable/send" />
+   <ImageButton
+      android:id="@+id/sep_button"
+      android:layout_width="2dp"
+      android:layout_height="96dp"
+      android:src="@drawable/sep" />
+   <ImageButton
+      android:id="@+id/profile_button"
+      android:contentDescription="@string/profile_desc"
+      android:layout_width="96dp"
+      android:layout_height="96dp"
+      android:src="@drawable/home" />
+   <ImageButton
+      android:id="@+id/sep_button"
+      android:layout_width="2dp"
+      android:layout_height="96dp"
+      android:src="@drawable/sep" />
+   <ImageButton
+      android:id="@+id/transactions_button"
+      android:contentDescription="@string/transactions_desc"
+      android:layout_width="96dp"
+      android:layout_height="96dp"
+      android:src="@drawable/details" />
+   </LinearLayout>
+</LinearLayout>

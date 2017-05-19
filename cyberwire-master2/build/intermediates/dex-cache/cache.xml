@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Android\bianyiyuanli\app\cyberwire-master2\app\libs\ormlite-android-4.41.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5ad2ad62e4d84198c08b012afdfaf75623fed8e">
+        <dex dex="D:\Android\bianyiyuanli\app\cyberwire-master2\app\build\intermediates\pre-dexed\debug\ormlite-android-4.41_c9e59346f28c9075beaedf32ce8b90f03a662961.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\bianyiyuanli\app\cyberwire-master2\app\libs\ormlite-core-4.41.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9ed622b35c87d8fec1a6daa61eeeec628df5131">
+        <dex dex="D:\Android\bianyiyuanli\app\cyberwire-master2\app\build\intermediates\pre-dexed\debug\ormlite-core-4.41_176df14035a9381754b8969607993b4a7dd60fe6.jar" />
+    </item>
+
+</items>
