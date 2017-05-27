@@ -5,6 +5,9 @@ import android.util.Log;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+
+import java.util.Arrays;
 
 /**
  * Created by Cooper on 2017/5/19 0019.
@@ -14,17 +17,24 @@ import org.aspectj.lang.annotation.Before;
 
 public class AspectTest {
 
-    private static final String TAG = "xuyisheng";
+    private static final String TAG = "tag";
+    @Pointcut("execution(* org.opensourcecurrency.hack.Send.onReceive(..))")
+    public void test(){}
+    @Before("test()")
+    public void permissionCheck(JoinPoint point) {
 
-    @Before("execution(* model.Cyberwire.on**(..))")
+        System.out.println("@Before：模拟权限检查...");
 
-    public void onActivityMethodBefore(JoinPoint joinPoint) throws Throwable {
+        System.out.println("@Before：目标方法为：" +
 
-        String key = joinPoint.getSignature().toString();
+                point.getSignature().getDeclaringTypeName() +
 
-        Log.d(TAG, "onActivityMethodBefore: " + key);
+                "." + point.getSignature().getName());
+
+        System.out.println("@Before：参数为：" + Arrays.toString(point.getArgs()));
+
+        System.out.println("@Before：被织入的目标对象为：" + point.getTarget());
 
     }
-
 }
 

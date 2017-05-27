@@ -41,7 +41,7 @@ public class MainActivity extends Activity implements AccessibilityManager.Acces
         setContentView(R.layout.activity_main);
         pluginStatusText = (TextView) findViewById(R.id.layout_control_accessibility_text);
         pluginStatusIcon = (ImageView) findViewById(R.id.layout_control_accessibility_icon);
-
+        Log.d("test","aop");
         handleMaterialStatusBar();
 
         explicitlyLoadPreferences();

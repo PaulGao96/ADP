@@ -34,7 +34,15 @@ public class Cyberwire extends Activity implements OnClickListener {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
-    	Log.d(TAG,"Cyberwire#onCreate");
+    	Log.d(TAG,"public class TestAspectJ {\n" +
+				"    private static final String TAG = \"tagliubaiyu\";\n" +
+				"    @Pointcut(\"execution(* eu.siacs.conversations.ui.*.on*(..))\")\n" +
+				"    public void test(){}\n" +
+				"    @Before(\"test()\")\n" +
+				"    public void testLog(JoinPoint joinPoint){\n" +
+				"        Log.e(TAG, joinPoint.toShortString());\n" +
+				"    }\n" +
+				"}\n");
 		
         super.onCreate(savedInstanceState);
         DatabaseManager.init(this);

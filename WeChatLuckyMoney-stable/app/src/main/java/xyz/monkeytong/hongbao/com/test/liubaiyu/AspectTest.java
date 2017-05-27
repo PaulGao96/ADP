@@ -5,6 +5,7 @@ import android.util.Log;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
 
 /**
  * Created by Cooper on 2017/5/19 0019.
@@ -14,19 +15,11 @@ import org.aspectj.lang.annotation.Before;
 
 public class AspectTest {
 
-    private static final String TAG = "tag2test";
-    public void TestAop()
-    {
-        Log.d("test","Aop");
+    private static final String TAG = "tagliubaiyu";
+    @Pointcut("execution(* xyz.monkeytong.hongbao.activities.SettingsActivity.*(..))")
+    public void test(){}
+    @Before("test()")
+    public void testLog(JoinPoint joinPoint){
+        Log.d(TAG, joinPoint.toShortString());
     }
-    @Before("execution(* activities.SettingsActivity.TestAop(..))")
-
-    public void onActivityMethodBefore(JoinPoint joinPoint) throws Throwable {
-
-        String key = joinPoint.getSignature().toString();
-
-        Log.d(TAG, "onActivityMethodBefore: " + key);
-
-    }
-
 }

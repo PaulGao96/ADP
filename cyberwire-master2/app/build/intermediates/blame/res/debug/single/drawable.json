@@ -16,12 +16,12 @@
         "source": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\src\\main\\res\\drawable\\cyberwire.png"
     },
     {
-        "merged": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home.png",
-        "source": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\src\\main\\res\\drawable\\home.png"
-    },
-    {
         "merged": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sep.png",
         "source": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\src\\main\\res\\drawable\\sep.png"
+    },
+    {
+        "merged": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home.png",
+        "source": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\src\\main\\res\\drawable\\home.png"
     },
     {
         "merged": "D:\\Android\\bianyiyuanli\\app\\cyberwire-master2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\send.png",
