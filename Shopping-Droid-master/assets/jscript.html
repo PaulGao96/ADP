@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      html, body, #map-canvas {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+     <script type="text/javascript" src="label.js"></script>
+    <script>
+var map;
+function initialize() {
+
+var clat = storesObject.getLatCenter();
+var cling = storesObject.getLngCenter();
+
+  var mapOptions = {
+    zoom: 15,
+    center: new google.maps.LatLng(clat, cling),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+	  var lt; 
+	  var ln;
+	  var stName;
+	   var num = storesObject.getNumberOfStores();
+	  
+	   for( var i=0;i<num;i++){
+	   	storesObject.inc();
+	   	lt = storesObject.getNextStoreLat();
+	   	ln = storesObject.getNextStoreLng();
+	   stName = storesObject.getNextStoreName();
+	  var marker = new google.maps.Marker({
+	  position: new google.maps.LatLng(lt, ln),
+      map: map,
+      title: stName
+      });
+      	var label = new Label({
+		map: map
+		});
+
+		label.bindTo('position', marker, 'position');
+		label.bindTo('text', marker, 'title');
+      }
+	 
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+  </body>
+</html>

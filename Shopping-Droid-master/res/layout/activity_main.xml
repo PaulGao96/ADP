@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:contentDescription="@string/desc_logo"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:src="@drawable/title" />
+
+    <TableLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.5"
+        android:weightSum="10" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center_horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/barcode_main"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_weight="3.5"
+                android:drawableTop="@drawable/barcode"
+                android:gravity="center_horizontal"
+                android:onClick="launchScanner"
+                android:text="@string/btn_main_scan" />
+
+            <Button
+                android:id="@+id/fav_main"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_weight="3.5"
+                android:drawableTop="@drawable/fav"
+                android:onClick="launchFavorites"
+                android:text="@string/btn_main_fav" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:gravity="center_horizontal"
+            
+            android:weightSum="10"  >
+
+            <Button
+                android:id="@+id/history_main"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_weight="3.5"
+                android:drawableTop="@drawable/history"
+                android:onClick="launchHistory"
+                android:text="@string/btn_main_history" />
+
+            <Button
+                android:id="@+id/map_main"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_weight="3.5"
+                android:drawableTop="@drawable/map"
+                android:onClick="launchMap"
+                android:text="@string/btn_main_map" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/bags_menu"
+        android:contentDescription="@string/desc_red_green"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="end"
+        android:layout_weight="2.5"
+        android:src="@drawable/bags" />
+
+</LinearLayout>
